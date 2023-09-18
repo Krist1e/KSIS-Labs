@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Online Market</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/29df39a301.js" crossorigin="anonymous"></script>     
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__top top-header">
+                    <div class="top-header__container">
+                        <nav hidden class="side-menu">
+                            <button class="side-menu__icon icon-menu"><span></span></button>
+                            <div class="side-menu__body menu-body">                                
+                            </div>
+                        </nav>
+                        <nav class="top-header__menu menu">
+                            <ul data-da=".side-menu__body, 767.98, first" class="menu__list">   
+                                <li class="menu__item menu__item_catalog"><a href="" class="menu__link">Catalog</a></li>                             
+                                <li class="menu__item"><a href="" class="menu__link">About</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Delivery</a></li>
+                                <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                            </ul>                                                    
+                        </nav>                       
+                        <div data-da=".side-menu__body, 767.98, last" class="top-header__social">
+                            <a href="https://www.facebook.com/" class="top-header__social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/" class="top-header__social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/" class="top-header__social-link"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/" class="top-header__social-link"><i class="fa-brands fa-youtube"></i></a>                                                                                    
+                        </div>                                                                                      
+                    </div>                                
+                </div>
+                <div class="header__body body-header">
+                    <div class="body-header__container">                        
+                        <a href="index.html" class="body-header__logo"><img src="images/logos/Logo.svg" alt="Store"></a>
+                        <div data-da=".sub-header__container, 600" class="body-header__search">
+                            <form class="search-header" action="search.php" method="get">
+                                <input class="search-header__input" type="text" name="search" placeholder="Search for products">
+                                <button class="search-header__button" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div data-da=".top-header__container, 767.98" class="body-header__actions actions-header">
+                            <a href="" class="body-header__icon"><i class="fa-solid fa-user"></i></a>
+                            <a href="" class="body-header__icon"><i class="fa-solid fa-heart"></i></a>
+                            <a href="" class="body-header__icon"><i class="fa-solid fa-shopping-cart"></i></a>                                                            
+                        </div>
+                    </div>
+                </div>   
+                <div class="header__bottom sub-header">
+                    <div class="sub-header__container">
+                        <nav data-da=".side-catalog, 767.98" class="sub-header__catalog catalog">
+                            <ul class="catalog__list">
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Apple</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Google</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Samsung</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Xiaomi</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Huawei</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">OnePlus</a></li>
+                                <li class="catalog__item"><a href="index.html" class="catalog__link">Redmi</a></li>
+                            </ul>
+                        </nav>                                           
+                    </div>                    
+                </div>             
+            </header>
+            <main>    
+                <section class="banner" style="background: linear-gradient(to right, #f0f3f3, rgb(44, 190, 216))">
+                    <div class="banner__container">
+                        <div class="banner__content">
+                            <h1 class="banner__title">The best <span>smartphones</span> in the world</h1>
+                            <a href="" class="banner__button">Buy now</a>
+                        </div>
+                        <div class="banner__image">
+                            <img src="images/banner.png" alt="Banner">
+                        </div>
+                    </div>
+                </section>
+   
+                <section class="features">
+                    <div class="features__container">
+                        <div class="features__item">
+                            <div class="features__icon features__icon_shipping"><i class="fa-solid fa-truck"></i></div>
+                            <div class="features__text">
+                                <div class="features__title">Free shipping</div>
+                                <div class="features__subtitle">From $200</div>                                
+                            </div>
+                        </div>
+                        <div class="features__item">
+                            <div class="features__icon features__icon_payment"><i class="fa-solid fa-credit-card"></i></div>
+                            <div class="features__text">
+                                <div class="features__title">Secure payment</div>
+                                <div class="features__subtitle">100% secure payment</div>
+                            </div>                                                     
+                        </div>
+                        <div class="features__item">
+                            <div class="features__icon features__icon_support"><i class="fa-solid fa-headset"></i></div>
+                            <div class="features__text">
+                                <div class="features__title">24/7 support</div>
+                                <div class="features__subtitle">Dedicated support</div>
+                            </div>                                                       
+                        </div>
+                        <div class="features__item">
+                            <div class="features__icon features__icon_certified"><i class="fa-solid fa-certificate"></i></div>
+                            <div class="features__text">
+                                <div class="features__title">Certified</div>
+                                <div class="features__subtitle">Only original products</div>
+                            </div>                            
+                        </div>
+                        <div class="features__item">
+                            <div class="features__icon features__icon_return"><i class="fa-solid fa-undo"></i></div>
+                            <div class="features__text">
+                                <div class="features__title">30 days return</div>
+                                <div class="features__subtitle">Money back guarantee</div>
+                            </div>                                                      
+                        </div>
+                    </div>
+                </section>
+                <section class="featured">
+                    <div class="featured__container product-slider">
+                        <div class="product-slider__header">
+                            <div class="product-slider__title">Featured products</div>
+                            <div class="product-slider__arrows">
+                                <button class="product-slider__arrow featured__prev"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="product-slider__arrow featured__next"><i class="fa-solid fa-chevron-right"></i></button> 
+                            </div>                           
+                        </div>
+                        <div class="product-slider__slider slider">
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">1Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">2Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">3Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">4Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">5Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">6Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">7Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">8Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">9Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>                                             
+                        </div>  
+                    </div>   
+                </section>     
+                <section class="bestsellers">
+                    <div class="bestsellers__container product-slider">
+                        <div class="product-slider__header">
+                            <h2 class="product-slider__title">Bestsellers</h2>
+                            <div class="product-slider__arrows">
+                                <button class="product-slider__arrow bestsellers__prev"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="product-slider__arrow bestsellers__next"><i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-slider__slider slider">
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>  
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__item product-card">
+                                <div class="product-card__title">Apple iPhone 14 Pro 128GB</div>
+                                <div class="product-card__image">
+                                    <img src="images/featured-1.png" alt="Featured">
+                                </div>
+                                <div class="product-card__content"> 
+                                    <div class="product-card__info">                                                                          
+                                        <div class="product-card__rating">
+                                            <div class="product-card__rating-stars">
+                                            </div>
+                                            <div class="product-card__rating-reviews">3 reviews</div>
+                                        </div>
+                                        <div class="product-card__price">$1,299.00</div>
+                                    </div>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__button button-favorite"><i class="fa-solid fa-heart"></i></button>
+                                        <button class="product-card__button button-cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>                
+            </main>
+            <footer class="footer">
+                <div class="subscribe-bar">
+                    <div class="subscribe-bar__container">
+                        <p class="subscribe-bar__text">Subscribe to Our Newsletter</p>
+                        <form class="subscribe-bar__form" method="post" action="">
+                            <input class="subscribe-bar__input" type="email" name="email" placeholder="Enter your email">
+                            <button class="subscribe-bar__button" type="submit"><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="main-footer">               
+                    <div class="main-footer__container">
+                        <div class="main-footer__info">
+                            <div class="main-footer__logo"><img src="images/logos/Logo.svg" alt="Logo"></div>
+                            <div class="main-footer__contact-info contact-info">
+                                <div class="contact-info__item">
+                                    <div class="contact-info__title">Headquarters:</div>
+                                    <div class="contact-info__text">1234 Street Name, City Name, United States</div>
+                                </div>
+                                <div class="contact-info__item">
+                                    <div class="contact-info__title">Email:</div>
+                                    <div class="contact-info__text">contact@gmail.com</div>
+                                </div>
+                                <div class="contact-info__item">
+                                    <div class="contact-info__title">Phone:</div>
+                                    <div class="contact-info__text">+1 234 567 89 10</div>
+                                </div>       
+                                <div class="contact-info__social">                                
+                                    <a href="https://www.facebook.com/" class="contact-info__social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/" class="contact-info__social-link"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://twitter.com/" class="contact-info__social-link"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/" class="contact-info__social-link"><i class="fa-brands fa-youtube"></i></a>  
+                                </div>                                    
+                            </div>                            
+                        </div>
+                        <div class="main-footer__links">
+                            <div class="main-footer__links-column">
+                                <div class="main-footer__links-title">Useful Links</div>
+                                <div class="main-footer__links-items">                          
+                                    <a href="#" class="main-footer__links-item">About Us</a>
+                                    <a href="#" class="main-footer__links-item">Contact Us</a>
+                                    <a href="#" class="main-footer__links-item">Delivery Information</a>                            
+                                    <a href="#" class="main-footer__links-item">Terms & Conditions</a>
+                                    <a href="#" class="main-footer__links-item">Privacy Policy</a>
+                                    <a href="#" class="main-footer__links-item">Cookie Policy</a>  
+                                </div>                         
+                            </div>
+                            <div class="main-footer__links-column">
+                                <div class="main-footer__links-title">Customer Service</div>
+                                <div class="main-footer__links-items">  
+                                    <a href="#" class="main-footer__links-item">My Account</a>
+                                    <a href="#" class="main-footer__links-item">My Cart</a>
+                                    <a href="#" class="main-footer__links-item">My Wishlist</a> 
+                                </div>                                 
+                            </div>                     
+                        </div>
+                    </div>  
+                </div> 
+                <div class="bottom-footer">
+                    <div class="bottom-footer__container">
+                        <div class="bottom-footer__text">© 2023 All Rights Reserved</div>
+                        <div class="bottom-footer__icons">
+                            <img src="images/logos/visa.svg" alt="Visa">
+                            <img src="images//logos/mastercard.svg" alt="MasterCard">
+                            <img src="images//logos/paypal.svg" alt="PayPal">                                            
+                        </div>
+                    </div> 
+                </div>                                             
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+

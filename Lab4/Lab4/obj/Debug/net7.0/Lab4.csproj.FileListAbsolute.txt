@@ -1,0 +1,30 @@
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.csproj.AssemblyReference.cache
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.AssemblyInfoInputs.cache
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.AssemblyInfo.cs
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.csproj.CoreCompileInputs.cache
+D:\2 курс\КСиС\Lab4\Lab4\bin\Debug\net7.0\Lab4.exe
+D:\2 курс\КСиС\Lab4\Lab4\bin\Debug\net7.0\Lab4.deps.json
+D:\2 курс\КСиС\Lab4\Lab4\bin\Debug\net7.0\Lab4.runtimeconfig.json
+D:\2 курс\КСиС\Lab4\Lab4\bin\Debug\net7.0\Lab4.dll
+D:\2 курс\КСиС\Lab4\Lab4\bin\Debug\net7.0\Lab4.pdb
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.dll
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\refint\Lab4.dll
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.pdb
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\Lab4.genruntimeconfig.cache
+D:\2 курс\КСиС\Lab4\Lab4\obj\Debug\net7.0\ref\Lab4.dll
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\bin\Debug\net7.0\Lab4.exe
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\bin\Debug\net7.0\Lab4.deps.json
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\bin\Debug\net7.0\Lab4.runtimeconfig.json
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\bin\Debug\net7.0\Lab4.dll
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\bin\Debug\net7.0\Lab4.pdb
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.csproj.AssemblyReference.cache
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.AssemblyInfoInputs.cache
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.AssemblyInfo.cs
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.dll
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\refint\Lab4.dll
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.pdb
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\Lab4.genruntimeconfig.cache
+C:\Users\Pavel\OneDrive - bsuir.by\Рабочий стол\2 курс\2 семестр\КСиС\darling\Lab4\Lab4\obj\Debug\net7.0\ref\Lab4.dll

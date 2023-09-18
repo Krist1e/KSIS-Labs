@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Variant 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="script" href="script.js" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/5042226aea.js"></script>
+  <script>
+    function CheckButton()
+            {
+                var name = document.getElementById('Name').value;
+                var email = document.getElementById('Email').value;
+                var date = document.getElementById('Date').value;
+                var number = document.getElementById('Number').value;
+ 
+                if (name && email && date && number) {
+                    document.getElementById('book_button').disabled = false;
+                } else {
+                    document.getElementById('book_button').disabled = true;
+                }
+            }
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+   <main class="page">
+    <header class="header">
+      <div class="container">
+      <div class="header_bar">
+        <div class="header_logo">LAMBDA</div>
+        <div class="header_menu">
+          <nav class="header_navigation">
+            <ul class="header_navigation_list">
+              <li><a href="#home"class="header_navigation_link">Home</a></li>
+              <li><a href="#about"class="header_navigation_link">About</a></li>
+              <li><a href="#ingredients"class="header_navigation_link">Ingredients</a></li>
+              <li><a href="#menu"class="header_navigation_link">Menu</a></li>
+              <li><a href="#reviews"class="header_navigation_link">Reviews</a></li>
+              <li><a href="#reservations"class="header_navigation_link">Reservations</a></li>
+            </ul>
+          </nav>
+          <div class="header_icons">
+            <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook-f"></a>
+          </div>
+        </div>
+      </div>
+     </div>
+    </header>
+    <section id="home" class="promo_section">
+      <div class="container">
+        <div class="promo_text">
+          <div class="text">
+          the right ingredients<br>for the right food</div>
+          <div class="text_divider">
+            <img src="images/promo/PromoDecoration.png" class="promo_divider">  
+          </div>
+          <div class="promo_buttons">
+            <button class="button1" onclick="location.href='#reservations';">BOOK A TABLE</button>
+            <button class="button2" onclick="location.href='#menu';">SEE THE MENU</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about_section">
+      <div class="container">
+        <div class="about_dish">
+          <div class="about_cooking">
+            <div class="about_name">Just the right food</div>
+            <div class="about_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="about_text">If you've been to one of our restaurants, you've seen — and<br>tasted — what keeps our costumers coming back for more.
+              Perfect materials and freshly backed food, delicious Lambda<br>cakes, muffins and gourmet coffees make us hard to resist!<br>
+              Stop it today and check us out!
+            </div>
+            <div class="about_cook"><img srcset="images/about/cook.png"></div>
+          </div>
+          <div class="about_plate"><img srcset="images/about/dish.png"></div>
+        </div>
+      </div>
+    </section>
+    <section id="ingredients" class="ingredients_section">
+      <div class="container">
+        <div class="ingredients_text_bg">
+          <div class="ingredients_header">Fine ingredients</div>
+          <div class="ingredients_divider"><img srcset="images/ingredients/IngredientsTextDivider.png"></div>
+          <div class="ingredients_text">If you've been to one of our restaurants, you've seen — and<br>tasted — what keeps our costumers coming back for more.
+            Perfect materials and freshly backed food, delicious Lambda<br>cakes, muffins and gourmet coffees make us hard to resist!<br>
+            Stop it today and check us out!</div>
+          <div class="indredients_photos"><img srcset="images/ingredients/images.png" class="ingredients_image"></div> 
+        </div> 
+      </div>
+    </section> 
+    <section id="menu" class="menu_section">
+      <div class="container">
+        <div class="menu_colomns">
+        <div class="menu_first_column">
+          <div class="appetisers">
+            <div class="menu_header">Appetisers</div>
+            <div class="menu_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="menu_text">
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Tzatsiki</div>
+                  <div class="menu_cost">$3.99</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Aubergine Salad</div>
+                  <div class="menu_cost">$5.50</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Aubergine Salad</div>
+                  <div class="menu_cost">$5.25</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+            </div>
+          </div>
+          <div class="salads">
+            <div class="menu_header">Salads</div>
+            <div class="menu_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="menu_text">
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Olive Special</div>
+                  <div class="menu_cost">$5.99</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+              </div>
+              <div class="menu_item_special">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Greek Salad</div>
+                  <div class="menu_cost">$5.50</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Gusto Salad</div>
+                  <div class="menu_cost">$5.25</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu_second_column">
+          <div class="starters">
+            <div class="menu_header">Starters</div>
+            <div class="menu_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="menu_text">
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Haloumi</div>
+                  <div class="menu_cost">$3.99</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Spinach Pie</div>
+                  <div class="menu_cost">$5.50</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+            </div>
+          </div>
+          <div class="main_dishes">
+            <div class="menu_header">Main Dishes</div>
+            <div class="menu_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="menu_text">
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Cornish Mackerel</div>
+                  <div class="menu_cost">$5.99</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+              </div>
+              <div class="menu_item_special">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Roast Lamb</div>
+                  <div class="menu_cost">$5.50</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Fried Chicken</div>
+                  <div class="menu_cost">$5.25</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+              </div>
+              <div class="menu_item">
+                <div class="menu_firstline">
+                  <div class="menu_dishname">Pastistio</div>
+                  <div class="menu_cost">$5.99</div>
+                </div>
+                <div class="menu_itemdivider"><img srcset="images/menu/MenuLine.png"></div>
+                <div class="menu_aboutdish">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section> 
+    <section id="reviews" class="reviews_section">
+      <div class="container">
+        <div class="reviews_text_bg">
+          <div class="ingredients_header">Guest Reviews</div>
+          <div class="reviews_divider"><img srcset="images/ingredients/IngredientsTextDivider.png"></div>
+          <div class="reviews_text">
+           <div class="reviews_text1">“</div>  
+           <div class="reviews_text2">If you've been to one of our restaurants, you've seen —<br>and tasted — what keeps our costumers coming back for<br>more.
+            Perfect materials and freshly backed food,<br>delicious Lambda cakes, muffins and gourmet coffees<br>make us hard to resist!
+            Stop it today and check us out!</div>
+          </div>
+          <div class="reviews_text_end">- food inc, New York</div>
+        </div>
+      </div>
+    </section>
+    <section id="reservations" class="reservations_section">
+      <div class="container">
+        <div class="reservations_container">
+          <div class="reservations_images">
+            <div class="reservations_image"><img srcset="images/reservations/dish1.png"></div>
+            <div class="reservations_image"><img srcset="images/reservations/dish2.png"></div>
+          </div>  
+          <div class="reservations_info">
+            <div class="reservations_header">Just the right food</div>
+            <div class="reservations_divider"><img srcset="images/about/AboutDivider.png"></div>
+            <div class="reservations_text">If you've been to one of our restaurants, you've seen — and<br>tasted — what keeps our costumers coming back for more.<br>
+              Perfect materials and freshly backed food. <br>Delicious Lambda cakes, muffins and gourmet coffees make<br>us hard to resist!
+              Stop it today and check us out! Perfect<br>materials and freshly backed food!</div>
+            <div class="reservations_edits">
+              <div class="edit_column">
+				<form action="" method="post">
+				<label for="POST-name">Name:</label>
+				<input id="POST-name" type="text" name="name">
+				<input type="submit" value="Save">
+				</form>
+                <div class="input_field">
+                  <div class="input_name">Name</div>
+                  <div class="input_elem"><input type="text" id="Name" required placeholder="your name *" onchange="CheckButton()"></div>
+                </div>
+                <div class="input_field">
+                  <div class="input_name">Date</div>
+                  <div class="input_elem"><input type="date" id="Date" required placeholder="date *" onchange="CheckButton()">
+                  </div>
+                </div>  
+              </div>
+              <div class="edit_column">
+                <div class="input_field">
+                  <div class="input_name">Email</div>
+                  <div class="input_elem"><input type="email" id="Email" required placeholder="your email *" onchange="CheckButton()"></div>
+                </div>
+                <div class="input_field">
+                  <div class="input_name">Party number</div>
+                  <div class="input_elem">
+                    <select name="select_party_number" id="Number" onchange="CheckButton()" required>
+                      <option hidden>party number</option>
+                      <option value="1">1-5 guests</option>
+                      <option value="2">5-10 guests</option>
+                      <option value="3">more than 10 guests</option>
+                    </select>  
+                  </div>
+                </div>
+              </div>  
+             </div>
+             <div class="reservations_button"><input id="book_button" class="book_button" type="submit" value="Book now!" disabled = "disabled" onclick="alert('Reservation made!');">
+          </div>  
+        </div>
+      </div>  
+    </section> 
+    <footer>
+      <div class="container">
+          <div class="footer_row">
+              <div class="footer_about">
+                  <h1>About Us</h1>
+                  <img src="images/ingredients/IngredientsTextDivider.png">
+                  <div class="footer_about_text"> Lambda's new and expanded Chelsea location <br> represents a truly authentic <span class="colortext"><strong>Greek</strong></span> patisserie, <br> featuring breakfasts of fresh croissants and <br> steaming bowls of café.
+                    <br> Lamda the best restaurant in town</div>
+              </div>
+              <div class="footer_hours">
+                  <h1>Opening Hours</h1>
+                  <img src="images//ingredients/IngredientsTextDivider.png">
+                  <div class="working_hours"><span class="colortext"><b>Mon-Thu:</b></span> 7:00am-8:00pm <br> 
+                    <span class="colortext"><b>Fri-Sun:</b></span> 7:00am-10:00pm</div>
+
+                  <div class="cards">
+                      <i class="fa fa-cc-amex"></i>
+                      <i class="fa fa-cc-paypal"></i>
+                      <i class="fa fa-cc-visa"></i>
+                      <i class="fa fa-cc-discover"></i>
+                  </div>
+              </div>
+              <div class="footer_location">
+                  <h1>Our Location</h1>
+                  <img src="images/ingredients/IngredientsTextDivider.png">
+                  <div class="adress"><b><a href="https://www.google.com/maps/">19th Paradise Street Sitia</a><br>
+                    <a href="https://www.google.com/maps/">128 Meserole Avenue</a></b></div>
+                  <div class="footer_icons">
+                      <a href="https://facebook.com/" target="_blank" class="fa fa-facebook-f"></a>
+                      <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+                      <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                      <a href="" target="_blank" class="fa fa-trello"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </footer> 
+   </main>
+  </div>
+</body>
+
+</html>
